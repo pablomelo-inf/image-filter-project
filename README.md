@@ -23,14 +23,17 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 ### Deploying your system
 
 `eb init` -> a new application 
+
 `eb create` a new environment to deploy your image-filter service! 
+
 You can use `eb deploy` to push changes.
 
 
-
+For test in EB can use: 
 
 `EB_URL` = image-filter-starter-code-dev2.us-east-2.elasticbeanstalk.com
 
-For test in EB can use: 
+ 
+
 `http://{{EB_URL}}/filteredimage?image_url=https://sm.ign.com/t/ign_br/cover/n/naruto-shi/naruto-shippuden_yj88.128.jpg`
 
