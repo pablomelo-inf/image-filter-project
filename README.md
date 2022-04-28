@@ -8,6 +8,8 @@ You'll need to create a new node server. Open a new terminal within the project 
 1. Initialize a new project: `npm i`
 2. run the development server with `npm run dev`
 
+
+
 ### Create a new endpoint in the server.ts file
 
 The starter code has a task for you to complete an endpoint in `./src/server.ts` which uses query parameter to download an image from a public URL, filter the image, and return the result.
@@ -23,4 +25,12 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 `eb init` -> a new application 
 `eb create` a new environment to deploy your image-filter service! 
 You can use `eb deploy` to push changes.
+
+
+
+
+`EB_URL` = image-filter-starter-code-dev2.us-east-2.elasticbeanstalk.com
+
+For test in EB can use: 
+`http://{{EB_URL}}/filteredimage?image_url=https://sm.ign.com/t/ign_br/cover/n/naruto-shi/naruto-shippuden_yj88.128.jpg`
 
